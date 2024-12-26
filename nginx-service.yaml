@@ -10,5 +10,5 @@ spec:
     - protocol: TCP
       port: 80         # This is the service port
       targetPort: 80    # This is the container port
-      nodePort: 30080   # This is the port on the node (for NodePort service)
+      nodePort: 30079   # This is the port on the node (for NodePort service)
   type: NodePort
